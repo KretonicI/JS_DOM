@@ -14,4 +14,7 @@ else {
     console.log("korisnik odgovorio NOK");
     window.location = "onama.html";
 }
-window.alert("test alert");
+//window.alert("test alert");
+window.setTimeout(function(){
+    console.log("Ispis sa odgodom od 2 sec");
+}, 2000);
